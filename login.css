@@ -14,7 +14,7 @@
     --pmg-login-style-a-main-background: #3760ba00;
     --pmg-login-style-a-background-gradient-color-1: #3760ba00;
     --pmg-login-style-a-background-gradient-color-2: #2c51a200;
-    --pmg-login-style-a-background-image: url(https://titanbluehost.com/ghl/pmg-textures/black-twill.pngg) repeat;
+    --pmg-login-style-a-background-image: url() repeat;
     --pmg-login-style-a-secondary-bg-tone: #305bb100;
     --pmg-login-style-a-inner-login-background: #fff;
     --pmg-login-style-a-logo: url() !important;
@@ -53,16 +53,13 @@ body .hl_login--body {
     background: var(--gradient-sidebar-1);
     background: -moz-linear-gradient(45deg,
             var(--pmg-login-style-a-background-gradient-color-1) 30%,
-            var(--pmg-login-style-a-background-gradient-color-2) 100%),
-        url(https://titanbluehost.com/ghl/pmg-textures/black-twill.pngg) repeat !important;
+            var(--pmg-login-style-a-background-gradient-color-2) 100%) !important;
     background: -webkit-linear-gradient(45deg,
             var(--pmg-login-style-a-background-gradient-color-1) 30%,
-            var(--pmg-login-style-a-background-gradient-color-2) 100%),
-        url(https://titanbluehost.com/ghl/pmg-textures/black-twill.pngg) repeat !important;
+            var(--pmg-login-style-a-background-gradient-color-2) 100%) !important;
     background: linear-gradient(45deg,
             var(--pmg-login-style-a-background-gradient-color-1) 30%,
-            var(--pmg-login-style-a-background-gradient-color-2) 100%),
-        url(https://titanbluehost.com/ghl/pmg-textures/black-twill.pngg) repeat !important;
+            var(--pmg-login-style-a-background-gradient-color-2) 100%) !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--pmg-login-style-a-background-gradient-color-1)', endColorstr='var(--pmg-login-style-a-background-gradient-color-1)', GradientType=1);
     height: 100vh !important;
     display: flex !important;
@@ -486,6 +483,7 @@ body .hl_login--body {
     color: var(--pmg-login-style-a-foot-note-font-color) !important;
 }
 
-/*****************************************************/
-/* Custom PMG Theme Updates for Login Theme Style A */
-/***************************************************/
+
+.hl_login--body {
+    width: 100% !important;
+}
