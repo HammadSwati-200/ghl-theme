@@ -1,0 +1,42 @@
+#additional-info .mb-2 {
+    margin-bottom: 19px !important;
+}
+
+.group-header {
+    position: relative;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.group-header h2 {
+    font-size: 14px !important;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.custom-field-group {
+    min-height: 30px;
+    box-shadow: rgb(128 128 128 / 15%) 0px 4px 7px -2px, rgb(9 30 66 / 8%) 0px 0px 0px 0px;
+    padding: 2px 15px;
+    margin-bottom: 20px !important;
+    border-radius: 6px !important;
+    background: #f3f3f3;
+    border: 1px solid #dfdfdf;
+}
+
+.Close-Button {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.height-none {
+    height: 0;
+    overflow: hidden;
+}
