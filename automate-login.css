@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+/** @format */
+:root {
+    --master-primary-color: #EF7F1A !important;
+    --pmg-login-style-a-main-font: "Poppins", sans-serif !important;
+    --pmg-login-style-a-primary-color: var(--master-primary-color) !important;
+    --pmg-login-style-a-main-background: #282828 !important;
+    --pmg-login-style-a-background-gradient-color-1: #212c49 !important;
+    --pmg-login-style-a-background-gradient-color-2: #212c49 !important;
+    --pmg-login-style-a-background-image: url(https://titanbluehost.com/ghl/pmg-textures/black-twill.png) repeat !important;
+    --pmg-login-style-a-secondary-bg-tone: var(--master-primary-color) !important;
+    --pmg-login-style-a-inner-login-background: #0000 !important;
+    --pmg-login-style-a-logo: url("https://storage.googleapis.com/msgsndr/9c3TfFVYcMgONckfXKCW/media/62b0cee7a25e8c4761512f97.png") !important;
+    --pmg-login-style-a-heading-font-color: #fff !important;
+    --pmg-login-style-a-input-color: #262626 !important;
+    --pmg-login-style-a-input-bg: #ffffff !important;
+    --pmg-login-style-a-input-border: #cccccc !important;
+    --pmg-login-style-a-error-font-color: #EF7F1A !important;
+    --pmg-login-style-a-forgot-pass-font-color: var(--pmg-login-style-a-primary-color) !important;
+    --pmg-login-style-a-button-background: #EF7F1A !important;
+    --pmg-login-style-a-button-background-hover: #EF7F1A !important;
+    --pmg-login-style-a-button-border: var(--pmg-login-style-a-button-background) !important;
+    --pmg-login-style-a-button-border-hover: var(--pmg-login-style-a-button-background-hover) !important;
+    --pmg-login-style-a-button-font-color: #fff !important;
+    --pmg-login-style-a-button-font-color-hover: #fff !important;
+    --pmg-login-style-a-foot-note-font-color: #EF7F1A !important;
+    --pmg-login-style-a-foot-note-font-color-link: var(--pmg-login-style-a-primary-color) !important;
+    --pmg-login-style-a-logo-width: 100% !important;
+    --pmg-login-style-a-logo-height: 150px !important;
+    --pmg-login-style-a-border-radius: 10px !important;
+    --pmg-login-style-a-shadow: none !important;
+    --pmg-login-style-a-sign-in-font-size: 22px !important;
+    --pmg-login-style-a-radio-button-ring-color: var(--pmg-login-style-a-primary-color) !important;
+    --search-bar-border: 1px #cccccc solid !important;
+    --search-bar-radius: 5px !important;
+}
+
+.login-card-heading h2.heading2:before {
+    margin-top: -15px !important;
+    margin-bottom: 20px !important;
+}
+
+button.hl-btn.w-full.justify-center.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600 {
+    border-radius: 50px !important;
+}
+
+.hl_login--body .card input.hl-text-input.shadow-sm.focus\:ring-curious-blue-500.focus\:border-curious-blue-500.block.w-full.sm\:text-sm.border-gray-300.rounded.disabled\:opacity-50.text-gray-800 {
+    background: var(--pmg-login-style-a-input-bg) !important;
+}
+
+.hl_login--body .login-card-heading {
+    margin-bottom: 30px !important;
+    text-align: center !important;
+}
+
+.hl_login--body .card .login-card-heading h2.heading2:before {
+    height: 100px !important;
+}
