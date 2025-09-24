@@ -146,12 +146,18 @@ body .hl_login--body {
 .hl_login--body .card .card-body input {
     background: var(--pmg-login-style-a-input-bg) !important;
     border: 1px solid var(--pmg-login-style-a-input-border) !important;
-    padding: unset !important;
+    padding: 15px 20px;
     border-radius: 3px !important;
     font-size: 14px;
     line-height: 20px;
     color: var(--pmg-login-style-a-input-color) !important;
     box-shadow: inset 0 0 10px #e5e7ea;
+}
+
+.hl_login--body .card .card-body input[type="radio"],
+.hl_login--body .card .card-body input[type="number"] {
+    padding: unset !important;
+    /* border-radius: 50% !important; */
 }
 
 .hl_login--body .card .card-body input::placeholder {
