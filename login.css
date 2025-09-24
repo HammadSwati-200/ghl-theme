@@ -487,3 +487,7 @@ body .hl_login--body {
 .hl_login--body .container-fluid form {
     width: 100% !important;
 }
+
+.hl_login--body .container-fluid {
+    display: unset !important;
+}
