@@ -86,7 +86,7 @@ body .hl_login--body {
 }
 
 .hl_login--body .container-fluid {
-    display: flex;
+    /* display: flex; */
     align-items: left;
     justify-content: left;
     text-align: left;
@@ -481,13 +481,4 @@ body .hl_login--body {
 .hl_login--body .heading2 {
     font-weight: 600;
     color: var(--pmg-login-style-a-foot-note-font-color) !important;
-}
-
-
-.hl_login--body .container-fluid form {
-    width: 100% !important;
-}
-
-.hl_login--body .container-fluid {
-    display: unset !important;
 }
