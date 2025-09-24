@@ -484,6 +484,6 @@ body .hl_login--body {
 }
 
 
-.hl_login--body {
+.hl_login--body form{
     width: 100% !important;
 }
