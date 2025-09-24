@@ -86,7 +86,7 @@ body .hl_login--body {
 }
 
 .hl_login--body .container-fluid {
-    /* display: flex; */
+    display: unset !important;
     align-items: left;
     justify-content: left;
     text-align: left;
