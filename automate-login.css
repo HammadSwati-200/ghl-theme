@@ -58,3 +58,11 @@ button.hl-btn.w-full.justify-center.inline-flex.items-center.px-4.py-2.border.bo
 .hl_login--body .card .login-card-heading h2.heading2:before {
     height: 100px !important;
 }
+
+.hl_login--body .container-fluid form {
+    width: 100% !important;
+}
+
+.hl_login--body .container-fluid {
+    display: unset !important;
+}
